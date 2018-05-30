@@ -18,6 +18,9 @@ public class PolicyFileEso {
     /**年龄*/
     private Integer age;
 
+    /**地址*/
+    private String address;
+
     /**省份信息*/
     private List<Map<String,Object>> provinceNumInfo;
 
@@ -51,5 +54,13 @@ public class PolicyFileEso {
 
     public void setProvinceNumInfo(List<Map<String, Object>> provinceNumInfo) {
         this.provinceNumInfo = provinceNumInfo;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
